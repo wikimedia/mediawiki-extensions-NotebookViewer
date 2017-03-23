@@ -13,10 +13,10 @@
 		"NotebookContentHandler": "NotebookContentHandler.php"
 	},
 	"MessagesDirs": {
-       "NotebookViewer": [
-           "i18n"
-       ]
-   },
+		"NotebookViewer": [
+			"i18n"
+		]
+	},
 	"namespaces": [
 		{
 			"id": 486,
