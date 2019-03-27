@@ -40,7 +40,7 @@ class NotebookContent extends TextContent {
 		// FIXME: WikiPage::doEditContent generates parser output before validation.
 		// As such, native data may be invalid (though output is discarded later in that case).
 		if ( $generateHtml && $this->isValid() ) {
-			$output->setText( $this->renderNotebook( $this->getNativeData() ) );
+			$output->setText( $this->renderNotebook( $this->getText() ) );
 		} else {
 			$output->setText( 'error' );
 		}
