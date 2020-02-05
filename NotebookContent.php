@@ -23,7 +23,7 @@ class NotebookContent extends TextContent {
 
 	protected function renderNotebook( $content ) {
 		$retval = null;
-		$process = new Process( __DIR__ . "/convertor.py" );
+		$process = new Process( [ __DIR__ . "/convertor.py" ] );
 		$process->setInput( $content );
 
 		$process->run();

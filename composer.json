@@ -1,6 +1,6 @@
 {
 	"require": {
-		"symfony/process": "~2.5"
+		"symfony/process": "~2.5 || ^3 || ^4 || ^5"
 	},
 	"require-dev": {
 		"jakub-onderka/php-parallel-lint": "1.0.0",
