@@ -1,6 +1,7 @@
 composer.lock
 node_modules/
 vendor/
+/.eslintcache
 
 # Editors
 *.kate-swp
