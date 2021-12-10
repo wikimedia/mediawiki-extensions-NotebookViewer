@@ -8,6 +8,9 @@
 	"descriptionmsg": "notebookviewer-desc",
 	"license-name": "MIT",
 	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
 	"AutoloadClasses": {
 		"NotebookContent": "NotebookContent.php",
 		"NotebookContentHandler": "NotebookContentHandler.php"
@@ -28,5 +31,5 @@
 	"ContentHandlers": {
 		"Notebook": "NotebookContentHandler"
 	},
-	"manifest_version": 1
+	"manifest_version": 2
 }
