@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Orlodrim"
+			"Orlodrim",
+			"Verdy p"
 		]
 	},
-	"notebookviewer-desc": "Visualiser des notebooks IPython"
+	"notebookviewer-desc": "Visualiser des blocs-notes IPython"
 }
