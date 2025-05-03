@@ -10,6 +10,8 @@
  * @author Yuvi Panda <yuvipanda@gmail.com>
  */
 
+use MediaWiki\Title\Title;
+
 class NotebookContentHandler extends TextContentHandler {
 
 	public function __construct( $modelId = 'Notebook' ) {

@@ -10,6 +10,7 @@
  * @author Yuvi Panda <yuvipanda@riseup.net>
  */
 
+use MediaWiki\Title\Title;
 use Symfony\Component\Process\Process;
 
 /**
